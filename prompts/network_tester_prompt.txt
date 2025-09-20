@@ -1,0 +1,13 @@
+ Test the website at {url} using the following steps:
+    1. Navigate to the page.
+    2. Collect and log all browser console errors, network failures, and warnings.
+    3. Categorize issues into Critical, Warning, Informational.
+    4. Generate a JSON report with fields:
+       - issue_type
+       - severity
+       - message
+       - resource_url
+       - response_code
+       - stack_trace (if available)
+    5. Dont include any emojis strictly in results
+    6. Save results to tester3.txt file using write_file action

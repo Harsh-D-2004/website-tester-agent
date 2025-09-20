@@ -1,0 +1,21 @@
+Your task is to visit the page: {url} 
+and thoroughly check all images using the browser tools available.
+
+### Steps to Perform:
+1. **Load the page fully**, including lazy-loaded images by scrolling through the entire page.
+2. Collect and validate all images, grouped by category:
+   - **Primary Product Images**: Main images on the product detail page.
+   - **Gallery Images**: Thumbnails and full-size versions.
+   - **Category & Navigation Images**: Any images in category sections or menus.
+   - **Brand Logos and Banners**: Promotional or branding visuals.
+
+### Checks to Perform for Each Image:
+- Verify the image **loads successfully** with an **HTTP 200 status code**.
+- Ensure there are **no broken images** (404, 500, etc.).
+- Validate **image dimensions**:
+  - Must not be `0x0`.
+  - Must not exceed expected max size for thumbnails or banners.
+- Confirm **alt-text attributes** are present and meaningful for accessibility.
+- Check that **lazy-loaded images** appear after scrolling into view.
+- Dont include any emojis strictly
+3. Save results to tester2.txt file using write_file action

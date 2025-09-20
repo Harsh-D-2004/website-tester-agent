@@ -1,0 +1,19 @@
+Your job is to thoroughly inspect the product page at: {url} using the browser tools provided.
+
+**Instructions:**
+1. Load the product page and wait for it to fully render.
+2. Verify the presence and visibility of these key elements:
+   - Product **Title/Name**
+   - Product **Price**
+   - Product **Description**
+   - **Add to Cart** button and ensure it is clickable
+   - **Product Variants** (e.g., size, color) if applicable
+   - **Availability Status** (e.g., "In Stock" or "Out of Stock")
+   - **Meta Tags**: `<title>` and `<meta name='description'>`
+3. Test **responsiveness** by simulating three viewport sizes:
+   - Desktop (1920x1080)
+   - Tablet (768x1024)
+   - Mobile (375x667)
+   Verify that all critical elements remain visible and properly formatted in each view.
+4. Dont include any emojis strictly in results
+5. Save results to tester1.txt using write_file action
